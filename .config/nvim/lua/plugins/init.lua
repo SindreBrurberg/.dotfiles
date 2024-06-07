@@ -82,8 +82,11 @@ return {
   },
   {
     "nvimtools/none-ls.nvim",
+    requires = {
+      'nvim-lua/plenary.nvim',
+    },
     ft = "go",
-    opts = function ()
+    opts = function (_, _)
       return require "configs.null-ls"
     end,
   },
