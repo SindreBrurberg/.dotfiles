@@ -90,3 +90,8 @@ alias c='clear'
 
 # Shell integrations
 eval "$(fzf --zsh)"
+
+cd() {
+    [[ $# -eq 0 ]] && return
+    builtin cd "$@"
+}
