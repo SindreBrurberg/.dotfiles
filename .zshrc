@@ -49,7 +49,8 @@ zinit snippet OMZP::command-not-found
 # Load completions
 fpath=(~/.zcompletion /opt/homebrew/share/zsh/site-functions $fpath)
 #autoload -U compinit; compinit
-autoload -Uz compinit && compinit
+autoload -Uz compinit
+compinit
 
 zinit cdreplay -q
 
