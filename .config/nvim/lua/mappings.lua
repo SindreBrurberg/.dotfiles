@@ -19,3 +19,15 @@ end, { desc = "Update rust crates" })
 -- map("i", "jk", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+
+
+-- new terminals unmap
+vim.keymap.del("n", "<leader>h")
+vim.keymap.del("n", "<leader>v")
+-- map("n", "<leader>h", function()
+--   require("nvchad.term").new { pos = "sp" }
+-- end, { desc = "terminal new horizontal term" })
+
+-- map("n", "<leader>v", function()
+--   require("nvchad.term").new { pos = "vsp" }
+-- end, { desc = "terminal new vertical window" })
