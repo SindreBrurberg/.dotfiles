@@ -24,6 +24,9 @@ end, { desc = "Update rust crates" })
 -- new terminals unmap
 vim.keymap.del("n", "<leader>h")
 vim.keymap.del("n", "<leader>v")
+vim.keymap.del({ "n", "t" }, "<A-v>")
+vim.keymap.del({ "n", "t" }, "<A-h>")
+vim.keymap.del({ "n", "t" }, "<A-i>")
 -- map("n", "<leader>h", function()
 --   require("nvchad.term").new { pos = "sp" }
 -- end, { desc = "terminal new horizontal term" })
