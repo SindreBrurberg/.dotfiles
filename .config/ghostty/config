@@ -1,6 +1,9 @@
-theme = Abernathy
+window-inherit-font-size = false
+window-decoration = false
+theme = Abernathy_flat
 background-opacity = 0.8
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
+font-size = 16
 shell-integration = zsh
