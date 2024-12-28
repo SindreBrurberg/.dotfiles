@@ -1,0 +1,6 @@
+theme = Abernathy
+background-opacity = 0.8
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+shell-integration = zsh
