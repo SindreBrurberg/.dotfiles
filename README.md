@@ -51,6 +51,15 @@ go install github.com/segmentio/golines@latest
 go install github.com/go-delve/delve/cmd/dlv@latest
 ```
 
+### Go tools
+```
+go install golang.org/x/tools/go/analysis/passes/fieldalignment/cmd/fieldalignment@latest
+```
+usage
+```
+fieldalignment -fix .
+```
+
 ### Complete
 ```
 stow . 

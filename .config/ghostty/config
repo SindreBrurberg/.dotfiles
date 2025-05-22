@@ -1,9 +1,14 @@
 window-inherit-font-size = false
 window-decoration = false
+window-step-resize = true
+window-position-x = 400
+window-position-y = 0
+macos-titlebar-style = hidden
+macos-option-as-alt = true
 theme = Abernathy_flat
 background-opacity = 0.8
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
-font-size = 16
+font-size = 14
 shell-integration = zsh
